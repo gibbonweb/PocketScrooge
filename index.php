@@ -22,7 +22,7 @@ ErrorHandler::attachErrorPage();
 // There's a great tutorial right at the top of the file!
 $router = new Router();
 $router->setGlobalOverrides(array(
-	'controller' => '\chq\controllers\%{controller|capfirst}Controller',
+	'controller' => '\pocketscrooge\controllers\%{controller|capfirst}Controller',
 	'args' => Router::EXPAND_PARAMS
 ));
 $router->request('/(:controller(/:function(/:*args)))', array(
