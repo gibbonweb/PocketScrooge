@@ -1,3 +1,9 @@
 [submodule "lib/hydrogen"]
 	path = lib/hydrogen
 	url = git://github.com/TomFrost/Hydrogen.git
+[submodule "lib/iui"]
+	path = lib/iui
+	url = https://code.google.com/p/iui/
+[submodule "lib/zepto"]
+	path = lib/zepto
+	url = git://github.com/madrobby/zepto.git
